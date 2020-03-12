@@ -102,4 +102,3 @@ Apache License 2.0, see [LICENSE](https://github.com/drakeg/rlmlm_exporter/blob/
 
 [travis]: https://travis-ci.org/drakeg/rlmlm_exporter
 [hub]: https://hub.docker.com/r/drakeg/rlmlm_exporter/
-[quay]: https://quay.io/repository/drakeg/rlmlm_exporter
