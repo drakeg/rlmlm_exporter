@@ -1,0 +1,14 @@
+# Editor files
+*~
+
+# Test binary, build with `go test -c`
+*.test
+
+# Exclude vendoring files
+vendor/*
+
+# Exclude promu build directory
+.build/
+
+# Binaries
+rlmlm_exporter
