@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/drakeg/rlmlm_exporter.svg)][travis]
 
-[![CircleCI](https://circleci.com/gh/mjtrangoni/rlmlm_exporter.svg?style=svg)(https://circleci.com/gh/mjtrangoni/rlmlm_exporter)
+[![CircleCI](https://circleci.com/gh/mjtrangoni/rlmlm_exporter.svg?style=svg)](https://circleci.com/gh/mjtrangoni/rlmlm_exporter)
 [![Docker Repository on Quay](https://quay.io/repository/mjtrangoni/rlmlm_exporter/status)][quay]
 [![Docker Pulls](https://img.shields.io/docker/pulls/mjtrangoni/rlmlm_exporter.svg?maxAge=604800)][hub]
 [![GoDoc](https://godoc.org/github.com/mjtrangoni/rlmlm_exporter?status.svg)](https://godoc.org/github.com/mjtrangoni/rlmlm_exporter)
