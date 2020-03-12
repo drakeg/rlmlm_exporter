@@ -6,9 +6,9 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/drakeg/rlmlm_exporter.svg?maxAge=604800)][hub]
 [![GoDoc](https://godoc.org/github.com/drakeg/rlmlm_exporter?status.svg)](https://godoc.org/github.com/drakeg/rlmlm_exporter)
 [![Coverage Status](https://coveralls.io/repos/github/drakeg/rlmlm_exporter/badge.svg?branch=master)](https://coveralls.io/github/drakeg/rlmlm_exporter?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mjtrangoni/rlmlm_exporter)](https://goreportcard.com/report/github.com/mjtrangoni/rlmlm_exporter)
+[![Go Report Card](https://goreportcard.com/badge/github.com/drakeg/rlmlm_exporter)](https://goreportcard.com/report/github.com/drakeg/rlmlm_exporter)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/00e03e600d5744d1a2cc21d98e2f8273)](https://www.codacy.com/app/mjtrangoni/rlmlm_exporterutm_source=github.com&amp;utm_medium=referral&amp;utm_content=mjtrangoni/rlmlm_exporter&amp;utm_campaign=Badge_Grade)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/mjtrangoni/rlmlm_exporter/master/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/drakeg/rlmlm_exporter/master/LICENSE)
 [![StyleCI](https://github.styleci.io/repos/107779392/shield?branch=master)](https://github.styleci.io/repos/107779392)
 
 [Prometheus](https://prometheus.io/) exporter for RLMlm License Manager
@@ -69,8 +69,6 @@ $ ./rlmlm_exporter --path.lmutil="/klocwork/3rdparty/bin/lmstat" <flags>
 
 Docker images are available on,
 
- 1. [Quay.io](https://quay.io/repository/mjtrangoni/rlmlm_exporter).
-    `$ docker pull quay.io/mjtrangoni/rlmlm_exporter`
  1. [Docker](https://hub.docker.com/r/drakeg/rlmlm_exporter/).
     `$ docker pull drakeg/rlmlm_exporter`
 
