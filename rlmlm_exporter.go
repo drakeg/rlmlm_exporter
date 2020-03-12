@@ -108,9 +108,9 @@ func main() {
 	http.HandleFunc(*metricsPath, handler)
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		num, err = w.Write([]byte(`<html>
-			<head><title>FLEXlm Exporter</title></head>
+			<head><title>RLMlm Exporter</title></head>
 			<body>
-			<h1>FLEXlm Exporter</h1>
+			<h1>RLMlm Exporter</h1>
 			<p><a href="` + *metricsPath + `">Metrics</a></p>
 			</body>
 			</html>`))
