@@ -17,7 +17,7 @@
 
 This fork is specialised for the reduced version of RLMlm License Manager bundled with installations of Klocwork. This reduced bundle contains lmstat as a independent tool, instead of the lmutil lmstat tool used by the parent of this fork.
 
-NOTE: The FLexLM Exporter currently builds only on Linux. Windows builds are a WIP. You will need to modify the Makefile to build in Windows.
+NOTE: The RLMLM Exporter currently builds only on Linux. Windows builds are a WIP. You will need to modify the Makefile to build in Windows.
 
 ## Getting
 
