@@ -1,19 +1,21 @@
-# RLMlm Exporter [![Build Status](https://travis-ci.org/drakeg/rlmlm_exporter.svg)][travis]
+# RLMlm Exporter
 
-[![CircleCI](https://circleci.com/gh/mjtrangoni/rlmlm_exporter.svg?style=svg)](https://circleci.com/gh/mjtrangoni/rlmlm_exporter)
+[![Build Status](https://travis-ci.org/drakeg/rlmlm_exporter.svg)][travis]
+
+[![CircleCI](https://circleci.com/gh/mjtrangoni/rlmlm_exporter.svg?style=svg)(https://circleci.com/gh/mjtrangoni/rlmlm_exporter)
 [![Docker Repository on Quay](https://quay.io/repository/mjtrangoni/rlmlm_exporter/status)][quay]
 [![Docker Pulls](https://img.shields.io/docker/pulls/mjtrangoni/rlmlm_exporter.svg?maxAge=604800)][hub]
 [![GoDoc](https://godoc.org/github.com/mjtrangoni/rlmlm_exporter?status.svg)](https://godoc.org/github.com/mjtrangoni/rlmlm_exporter)
 [![Coverage Status](https://coveralls.io/repos/github/mjtrangoni/rlmlm_exporter/badge.svg?branch=master)](https://coveralls.io/github/mjtrangoni/rlmlm_exporter?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/mjtrangoni/rlmlm_exporter)](https://goreportcard.com/report/github.com/mjtrangoni/rlmlm_exporter)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/00e03e600d5744d1a2cc21d98e2f8273)](https://www.codacy.com/app/mjtrangoni/rlmlm_exporter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mjtrangoni/rlmlm_exporter&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/00e03e600d5744d1a2cc21d98e2f8273)](https://www.codacy.com/app/mjtrangoni/rlmlm_exporterutm_source=github.com&amp;utm_medium=referral&amp;utm_content=mjtrangoni/rlmlm_exporter&amp;utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/mjtrangoni/rlmlm_exporter/master/LICENSE)
 [![StyleCI](https://github.styleci.io/repos/107779392/shield?branch=master)](https://github.styleci.io/repos/107779392)
 
-[Prometheus](https://prometheus.io/) exporter for FLEXlm License Manager
+[Prometheus](https://prometheus.io/) exporter for RLMlm License Manager
 `lmstat` license information.
 
-This fork is specialised for the reduced version of FLEXlm License Manager bundled with installations of Klocwork. This reduced bundle contains lmstat as a independent tool, instead of the lmutil lmstat tool used by the parent of this fork.
+This fork is specialised for the reduced version of RLMlm License Manager bundled with installations of Klocwork. This reduced bundle contains lmstat as a independent tool, instead of the lmutil lmstat tool used by the parent of this fork.
 
 NOTE: The FLexLM Exporter currently builds only on Linux. Windows builds are a WIP. You will need to modify the Makefile to build in Windows.
 
@@ -91,7 +93,7 @@ Metrics will now be reachable at http://localhost:9319/metrics.
 
 ## Dashboards
 
- 1. [Grafana Dashboard](https://grafana.com/dashboards/3854)
+ 1. [Grafana Dashboard](https://grafana.com/dashboards/3854) This is for FlexLM 
 
 ## Contributing
 
