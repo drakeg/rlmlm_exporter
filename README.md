@@ -100,6 +100,6 @@ Refer to [CONTRIBUTING.md](https://github.com/drakeg/rlmlm_exporter/blob/master/
 
 Apache License 2.0, see [LICENSE](https://github.com/drakeg/rlmlm_exporter/blob/master/LICENSE).
 
-[travis]: https://travis-ci.org/mjtrangoni/rlmlm_exporter
-[hub]: https://hub.docker.com/r/mjtrangoni/rlmlm_exporter/
-[quay]: https://quay.io/repository/mjtrangoni/rlmlm_exporter
+[travis]: https://travis-ci.org/drakeg/rlmlm_exporter
+[hub]: https://hub.docker.com/r/drakeg/rlmlm_exporter/
+[quay]: https://quay.io/repository/drakeg/rlmlm_exporter
